@@ -86,3 +86,10 @@ Resources such as the Scheduler will only have outputs (onTick, for example). Re
 ## Show Type Information
 
 Every resource input and output may have a type signature. A Function may accept an object of type `type Input = { userId: number; userName: string }`, so the invoke signature will be `invoke(input: { userId: number; userName: string })`.
+
+## Other Ideas
+
+- Display a config pane that exposes the ELK parameters
+- Add minimap
+- Add Vercel previews
+- Add traces panel
